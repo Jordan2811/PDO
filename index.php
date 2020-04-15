@@ -7,7 +7,7 @@ function text_input($data)
     return $data;
 }
 
-require_once 'connec.php';
+require_once 'connect.php';
 $pdo = new PDO(DSN, USER, PASS);
 
 try {
